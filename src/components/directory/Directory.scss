@@ -1,0 +1,11 @@
+.directory {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+
+  justify-items: center;
+
+  .directory-item {
+    list-style: none;
+  }
+}
